@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+
+  height: 36px;
+  padding: 0 14px 0 16px;
+  background-color: #F5F5F2;
+}
+
+.header img {
+  height: 24px;
+  width: 24px;
+  fill: rgb(17, 17, 17);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.header .item {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background: transparent;
+  margin: 0 0 0 1100px;
+}
+
+a {
+  padding: 17px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.item a :hover {
+  text-decoration: underline;
+}
+
+.nav {
+  width: 100%;
+  padding: 4px 0 0;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  justify-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav img {
+  width: 60px;
+  height: 60px;
+  margin-left: 4px;
+}
+
+.menu ul {
+
+  list-style: none;
+  display: flex;
+
+}
+
+.menu {
+  padding-top: 4px;
+}
+
+.menu ul li {
+  padding: 15px 15px 28px;
+}
+
+.menu ul li a {
+  font-weight: 500;
+  font-size: 20px;
+
+}
+
+.timkiem {
+  padding-top: 4px;
+
+}
+
+.timkiem input {
+  background-color: #F5F5F2;
+  width: 180px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  padding: 4px 4px 4px 4px;
+}
+
+.timkiem i {
+  font-size: 30px;
+  position: absolute;
+  right: 250px;
+  padding-top: 10px;
+}
+
+.icon {
+  padding-top: 10px;
+  padding-right: 50px;
+}
+
+.icon i {
+  font-size: 30px;
+
+}
+
+.article {
+ 
+  display: flex;
+  padding-top: 20px;
+  
+}
+.thanbai .tieude {
+  padding-left: 46px;
+}
+.thanbai .tieude h6 {
+
+  background-color: #F5F5F2;
+  height: 30px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.thanbai img {
+  width: 1380px;
+  height: 956px;
+  margin-left: 48px;
+  padding-top: 20px;
+}
+
+.thanbai h1 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 70px;
+
+}
+
+.thanbai p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+
+}
+
+.thanbai .button1 {
+  text-align: center;
+padding-top: 25px;
+}
+
+.button1 input {
+  width: 116px;
+  height: 37px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+font-weight: 600;
+}
+.largeimg {
+  display: flex;
+
+}
+.smallimg img{
+  width: 400px;
+  height: 600px;
+  
+}
+.smallimg h2{
+  text-align: center;
+}
+.thanbai h4 {
+  padding-top: 50px;
+  font-size: 35px;
+  padding-left: 100px;
+  padding-bottom: 40px;
+}
+.giay {
+
+ width: 1476px;
+  
+}
+.giay h3{
+  padding-top: 30px;
+  padding-left: 200px;
+  font-size: 30px;
+}
+.col {
+ margin-left: 150px;
+ width: 80%;
+  
+  display: flex;
+  overflow-x: auto;
+}
+.col1 img {
+  width: 300px;
+  height: 300px;
+}
+
+.col1 h4{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 3px;
+}
+.col1 p {
+  text-align: center;
+  padding-top: 3px;
+}
+.lo1 .price del{
+  color: #90a0b7;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #111111;
+  display: flex;
+font-family: 'Times New Roman', Times, serif;
+}
+.thongtin1 h3{
+  color: white;
+  padding-left: 70px;
+}
+.thongtin1 li {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.thongtin1 li a {
+  color: #747E7E;
+  
+  text-decoration: none;
+}
+.thongtin1 li a:hover{
+  color: white;
+}
+.thongtin1 {
+  padding-top: 30px;
+ 
+}
+.icon2 {
+ padding-left: 350px;
+ font-size: 40px;
+}
+.icon2 button{
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #747E7E;
+}
+.icon2 button:hover {
+ background-color: white;
+}

@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../emg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.login {
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(255,255,255, .2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.login h5{
+  font-size: 25px;
+  padding-top: 10px;
+  text-align: center;
+  color: black;
+}
+.login .lo1{
+  width: 100%;
+  height: 50px;
+  position: relative;
+  margin: 30px 0 ;
+  
+}
+.login input{
+ 
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255,255,255, .2);
+border-radius: 40px;
+font-size: 16px;
+padding: 20px 45px 20px 20px;
+}
+.lo1 input::placeholder{
+  color: black;
+}
+.lo1 i{
+position: absolute;
+right: 20px;
+top: 30%;
+color: black;
+font-size: 20px;
+}
+.login .remember{
+  
+  
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember label {
+  width: 13px;
+  color: black;
+}
+.remember label input {
+
+  margin-right: 3px;
+}
+.remember a{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.remember a:hover {
+  text-decoration: underline;
+}
+.login .btn{
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.login .lo2 {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  margin: 20px 0 15px;
+
+}
+.lo2 p a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.lo2 p a:hover{
+  text-decoration: underline;
+}
